@@ -38,7 +38,7 @@ notification:
   bark_batch_size: 3600 # Bark消息分批大小（字节）
   slack_batch_size: 4000 # Slack消息分批大小（字节）
   batch_send_interval: 3 # 批次发送间隔（秒）
-  feishu_message_separator: "━━━━━━━━━━━━━━━━━━━" # feishu 消息分割线
+  feishu_message_separator: "======================" # feishu 消息分割线
 
   # 🕐 推送时间窗口控制（可选功能）
   # 用途：限制推送的时间范围，避免非工作时间打扰
@@ -106,7 +106,7 @@ platforms:
   - id: "thepaper"
     name: "澎湃新闻"
   - id: "bilibili-hot-search"
-    name: "bilibili 热搜"
+    name: "B站热搜"
   - id: "cls-hot"
     name: "财联社热门"
   - id: "ifeng"
